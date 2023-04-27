@@ -1,0 +1,25 @@
+<h1>Generate pdf</h1>
+
+
+
+<table width="50%">
+    <tr>
+        <th>Product_name</th>
+        <th>Price</th>
+        <th>description</th>
+        <th>user_id</th>
+        
+    </tr>
+    <% for(var i=0; i < user.length; i++) { %>
+        <tr>
+          <td><%= user[i].product_name %></td>
+          <td><%= user[i].price%></td>
+          <td><%= user[i].description %></td>
+          <td><%= user[i].user_id%></td>
+       
+        </tr>
+        <% } %>
+    
+      
+</table>
+
